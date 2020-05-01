@@ -1,0 +1,42 @@
+#simple-keyboard {
+	padding: 2em;
+	margin: 1em;
+	background-color: #E4E4E1;
+	border: 1px solid gray;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#simple-keyboard button {
+	font-size: 2em;
+	width: 60px;
+}
+
+#black-keys button {
+	background-color: #112211;
+	color: #EEFFEE;
+}
+
+#white-keys button {
+	background-color: #EEFFEE;
+	color: #112211;
+}
+
+.spacer {
+	margin-right: 30px;
+}
+
+.recording {
+	background-color: red;
+}
+
+#start-recording, #stop-recording {
+	font-size: 2em;
+}
+
+#controls {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}

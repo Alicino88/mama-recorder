@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Small Recorder</title>
+    <script src="Tone-muted.js"></script>
+    <link href="recorder.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="simple-keyboard">
+      <div id="black-keys">
+        <span class="spacer">&nbsp;</span>
+        <button data-note="C#4">C#</button>
+        <button data-note="D#4">D#</button>
+        <span class="spacer">&nbsp;</span>
+        <button data-note="F#4">F#</button>
+        <button data-note="G#4">G#</button>
+        <button data-note="A#4">A#</button>
+        <span class="spacer">&nbsp;</span>
+        <span class="spacer">&nbsp;</span>
+        <button data-note="C#5">C#</button>
+        <button data-note="D#5">D#</button>
+        <span class="spacer">&nbsp;</span>
+        <span class="spacer">&nbsp;</span>
+        <button data-note="F#5">F#</button>
+        <button data-note="G#5">G#</button>
+        <button data-note="A#5">A#</button>
+      </div>
+
+      <div>&nbsp;</div>
+
+      <div id="white-keys">
+        <button data-note="C4">C</button>
+        <button data-note="D4">D</button>
+        <button data-note="E4">E</button>
+        <button data-note="F4">F</button>
+        <button data-note="G4">G</button>
+        <button data-note="A4">A</button>
+        <button data-note="B4">B</button>
+        <button data-note="C5">C</button>
+        <button data-note="D5">D</button>
+        <button data-note="E5">E</button>
+        <button data-note="F5">F</button>
+        <button data-note="G5">G</button>
+        <button data-note="A5">A</button>
+        <button data-note="B5">B</button>
+      </div>
+
+    </div>
+
+    <div id="controls">
+      <button id="start-recording">Start recording</button>
+      <button id="stop-recording">Stop recording</button>
+      <ul id="notes-recorded"></ul>
+    </div>
+
+    <script src="recorder.js"></script>
+  </body>
+</html>
